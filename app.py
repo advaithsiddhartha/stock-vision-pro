@@ -27,7 +27,7 @@ if 'longBusinessSummary' in tickerData.info:
     st.info(string_summary)
 else:
     st.warning("No business summary available for this stock.")
-st.info(string_summary)
+
 st.header('**Ticker data**')
 st.write(tickerDf)
 st.header('**Bollinger Bands**')
